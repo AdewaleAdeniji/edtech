@@ -1,0 +1,99 @@
+.logincontainer {
+    background: #E5E5E5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+.logincontainer h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* line-height: 41px */
+    color: #000000;
+}
+.logincontainer #smalltext {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height */
+    margin-top: 46px;
+    color: #555555;
+    margin-bottom: 26px;
+
+}
+.logincard {
+    width: 450px;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 23px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    padding: 28px;
+    text-align: center;
+}
+
+.loginarea {
+    text-align: center;
+}
+.logincard .formfield {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 23px;
+    font-family: Helvetica;
+    /* text-align: center; */
+}
+.altlinks {
+    display: flex;
+    width: 100%;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #FF7F50;
+}
+.altlinks .forgot {
+    text-align: left;
+    width: 50%;
+    color: #FF7F50;
+    text-decoration: underline;
+}
+.forgot a {
+    color: #FF7F50;
+}
+.altlinks .remember {
+    text-align: right;
+    width: 50%;
+}
+.remembercheck {
+    margin-right: 1vh;
+}
+.buttonlogin {
+    width: 100%;
+    height: 50px;
+    background: #FF7F50;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+/* identical to box height */
+    color: #FFFFFF;
+    margin-top: 26px;
+    border: none;
+    /* padding: 18px; */
+}

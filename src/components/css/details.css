@@ -1,0 +1,193 @@
+.detailsmodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(0,0,0,0.3);
+}
+
+.detailscontents {
+    width: 480px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.detailscontents .title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+/* identical to box height */
+    text-align: left;
+    color: #000000;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom:18px;
+}
+
+.detailsection {
+    margin-top: 15px;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 20px;
+}
+
+.detail {
+    display: flex;
+    /* justify-content: flex-start; */
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+    margin-top: 20px;
+}
+.detail .detailname {
+     
+width: 30%;
+}
+
+
+
+.detailsimages h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+    color: #000000;
+}
+
+.detailsimages {
+    margin-top: 15px;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 20px;
+}
+
+.detailsimages img {
+    width: 54px;
+    height: 54px;
+    margin-left: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imagesection {
+    margin-top: 15px;
+}
+
+span.shipname {
+    display: block;
+}
+
+.pricelisting h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+    color: #000000;
+}
+
+.pricelisting {
+    margin-top: 21px;
+}
+
+.forminputs input {
+    width: 200px !important;
+    height: 60px !important;
+}
+
+
+
+.pricelisting .forminput input {
+    width: 416px;
+    height: 60px;
+    outline: none;
+    padding: 22px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+/* identical to box height */
+    color: #000000;
+}
+
+.pricelisting label {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.forminputs {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+.forminput.duration {
+    margin-left: 14px;
+}
+
+.detailsfooter {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button.btn.btn-submit-bid {
+    width: 200px;
+    height: 60px;
+    background: #F5A000;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+button.btn.btn-submit-bid:hover {
+    background:#fff;
+    color:#f5a000;
+    border:2px solid #f5a000;
+}
+.pricelists {
+    margin-top: 10px;
+}
+
+.pricelist {
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px 20px;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.pricelist i {font-size: 20px;cursor: pointer;}
+
+span.pricename {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+/* identical to box height */
+    color: #000000;
+}
