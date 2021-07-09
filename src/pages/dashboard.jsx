@@ -19,48 +19,16 @@ class Dashboard extends Component {
             <div>
                   
                 <div className="contents">
-                    <Header username="DHL Logistics" picture={User}/>
-                    <div className="content">
-                        <div className="contentitle">
-                            Overview
-                        </div>
-                        <div className="contentcontainer">
-                            <div className="metrics">
-                                <span className="metricstext">Statistics</span>
-                                <select name="metricselection">
-                                    <option value="week">This week</option>
-                                </select>
-                            </div>
-                            <div className="imagedesc">
-                                <img alt="userlogo" src={ImageDesc} className="imgdesc"/>
-                                <div className="imagedesctext">
-                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                    <Header username="feranmi Adeniji" picture={User}/>
+                   
                     <div className="overviewcards">
                         <div className="viewcards">
                             <div className="viewcardstext">
-                                Total Transactions
+                                
                             </div>
                             <div className="viewcardsdesc">
                                 <span className="viewcardscount">
-                                    25
-                                </span>
-                                <div className="viewicons">
-                                    <img alt="userlogo" src={CardImageOne} className="card-img"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="viewcards">
-                            <div className="viewcardstext">
-                                Total Transactions
-                            </div>
-                            <div className="viewcardsdesc">
-                                <span className="viewcardscount">
-                                    25
+                                    Online Campus
                                 </span>
                                 <div className="viewicons">
                                 <img alt="userlogo" src={CardImageTwo} className="card-img"/>
@@ -69,196 +37,165 @@ class Dashboard extends Component {
                         </div>
                         <div className="viewcards">
                             <div className="viewcardstext">
-                                Total Transactions
+                                
                             </div>
                             <div className="viewcardsdesc">
                                 <span className="viewcardscount">
-                                    25
+                                    Results
                                 </span>
                                 <div className="viewicons">
-                                <img alt="userlogo" src={CardImageThree} className="card-img"/>
+                                <img alt="userlogo" src={CardImageTwo} className="card-img"/>
                                 </div>
                             </div>
                         </div>
                         <div className="viewcards">
                             <div className="viewcardstext">
-                                Total Transactions
+                                
                             </div>
                             <div className="viewcardsdesc">
                                 <span className="viewcardscount">
-                                    25
+                                    Online Forms
                                 </span>
                                 <div className="viewicons">
-                                <img alt="userlogo" src={CardImageFour} className="card-img"/>
+                                <img alt="userlogo" src={CardImageTwo} className="card-img"/>
                                 </div>
                             </div>
                         </div>
-                    
+                        <div className="viewcards">
+                            <div className="viewcardstext">
+                                Dr. Feranmi Adeniji Ph.d
+                            </div>
+                            <div className="viewcardsdesc">
+                                <span className="viewcardscount">
+                                    Course Advisor
+                                </span>
+                                <div className="viewicons">
+                                <img alt="userlogo" src={CardImageTwo} className="card-img"/>
+                                </div>
+                            </div>
+                        </div>
+                       
                     </div>
-                    <div className="dashboardstats col-md-12">
-                        <div className="col-mds-8">
-                            <div className="statsdesc">
-                                <span className="recentbidstext">
-                                    Recent
-                                </span>
-                                <span className="seealltext">
-                                    See all 
-                                </span>
+                    <div className="overviewcards">
+                        <div className="viewcards">
+                            <div className="viewcardstext">
+                                CGPA
                             </div>
-                            <div className="statstable">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Order No</th>
-                                            <th>Date</th>
-                                            <th>Customer Name</th>
-                                            <th>Price</th>
-                                            <th>Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                JSHEDU29DU283
-                                            </td>
-                                            <td>
-                                                June 12, 10:00am
-                                            </td>
-                                            <td>
-                                                Alfred Ibrahim
-                                            </td>
-                                            <td>
-                                                &#8358;3,000
-                                            </td>
-                                            <td>
-                                                <label className="accepted">Accepted</label>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                JSHEDU29DU283
-                                            </td>
-                                            <td>
-                                                June 12, 10:00am
-                                            </td>
-                                            <td>
-                                                Alfred Ibrahim
-                                            </td>
-                                            <td>
-                                                &#8358;3,000
-                                            </td>
-                                            <td>
-                                                <label className="declined">Declined</label>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                JSHEDU29DU283
-                                            </td>
-                                            <td>
-                                                June 12, 10:00am
-                                            </td>
-                                            <td>
-                                                Alfred Ibrahim
-                                            </td>
-                                            <td>
-                                                &#8358;3,000
-                                            </td>
-                                            <td>
-                                                <label className="declined">Declined</label>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                JSHEDU29DU283
-                                            </td>
-                                            <td>
-                                                June 12, 10:00am
-                                            </td>
-                                            <td>
-                                                Alfred Ibrahim
-                                            </td>
-                                            <td>
-                                                &#8358;3,000
-                                            </td>
-                                            <td>
-                                                <label className="declined">Declined</label>
-                                            </td>
-                                        </tr>
-                                    
-                                    </tbody>
-                                </table>
+                            <div className="viewcardsdesc">
+                                <span className="viewcardscount">
+                                    3.87
+                                </span>
+                                <div className="viewicons">
+                                <img alt="userlogo" src={CardImageTwo} className="card-img"/>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-mds-4">
-                            <div className="ongoingorders">
-                                 <div className="statsdesc">
-                                    <span className="recentbidstext">
-                                        Ongoing Order
-                                    </span>
-                                    
-                                </div>
-                                <div className="orderslist">
-                                    <div className="orders">
-                                        <div className="box"></div>
-                                        <div className="orderdesc">
-                                            <div className="address">
-                                                113, Cresent road, iparapa
-                                            </div>
-                                            <div className="packages">
-                                                2 packages
-                                            </div>
-                                        </div>
-                                        <div className="orderprice">
-                                            &#8358; 3000
-                                        </div>
-                                    </div>
-
-                                    <div className="orders">
-                                        <div className="box"></div>
-                                        <div className="orderdesc">
-                                            <div className="address">
-                                                113, Cresent road, iparapa
-                                            </div>
-                                            <div className="packages">
-                                                2 packages
-                                            </div>
-                                        </div>
-                                        <div className="orderprice">
-                                            &#8358; 3000
-                                        </div>
-                                    </div>
-                                    <div className="orders">
-                                        <div className="box"></div>
-                                        <div className="orderdesc">
-                                            <div className="address">
-                                                113, Cresent road, iparapa
-                                            </div>
-                                            <div className="packages">
-                                                2 packages
-                                            </div>
-                                        </div>
-                                        <div className="orderprice">
-                                            &#8358; 3000
-                                        </div>
-                                    </div>
-                                    <div className="orders">
-                                        <div className="box"></div>
-                                        <div className="orderdesc">
-                                            <div className="address">
-                                                113, Cresent road, iparapa
-                                            </div>
-                                            <div className="packages">
-                                                2 packages
-                                            </div>
-                                        </div>
-                                        <div className="orderprice">
-                                            &#8358; 3000
-                                        </div>
-                                    </div>
-                                    
+                        <div className="viewcards">
+                            <div className="viewcardstext">
+                                Payment Status
+                            </div>
+                            <div className="viewcardsdesc">
+                                <span className="viewcardscount">
+                                    Paid
+                                </span>
+                                <div className="viewicons">
+                                <img alt="userlogo" src={CardImageTwo} className="card-img"/>
                                 </div>
                             </div>
+                        </div>
+                        <div className="viewcards">
+                            <div className="viewcardstext">
+                                    Course Registration
+                            </div>
+                            <div className="viewcardsdesc">
+                                <span className="viewcardscount">
+                                    Completed
+                                </span>
+                                <div className="viewicons">
+                                <img alt="userlogo" src={CardImageTwo} className="card-img"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="viewcards">
+                            <div className="viewcardstext">
+                                 Semester 
+                            </div>
+                            <div className="viewcardsdesc">
+                                <span className="viewcardscount">
+                                    First Semester
+                                </span>
+                                <div className="viewicons">
+                                <img alt="userlogo" src={CardImageTwo} className="card-img"/>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                    <div className="forumsection">
+                        <div className="forum-name">
+                            Student's Forum
+                        </div>
+                        <div className="forum">
+                            <div className="messagerow col-md-12 flex inline-flex">
+                                <div className="col-md-6">
+                                    <div className="forum-message">
+                                        <div className="forumname">Devferanmi</div>
+                                        <div className="forumessage">Question for assignment if 1 + 1</div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6"></div>
+                            </div>
+                            <div className="messagerow col-md-12 flex inline-flex">
+                                <div className="col-md-6">
+                                    <div className="forum-message">
+                                        <div className="forumname">Devferanmi</div>
+                                        <div className="forumessage">Question for assignment if 1 + 1</div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6"></div>
+                            </div>
+                            <div className="messagerow col-md-12 flex inline-flex">
+                                <div className="col-md-6">
+                                    <div className="forum-message">
+                                        <div className="forumname">Devferanmi</div>
+                                        <div className="forumessage">Question for assignment if 1 + 1</div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6"></div>
+                            </div>
+                            <div className="messagerow col-md-12 flex inline-flex">
+                                <div className="col-md-6">
+                                    <div className="forum-message">
+                                        <div className="forumname">Devferanmi</div>
+                                        <div className="forumessage">Question for assignment if 1 + 1</div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6"></div>
+                            </div>
+                            <div className="messagerow col-md-12 flex inline-flex">
+                                <div className="col-md-6">
+                                    <div className="forum-message">
+                                        <div className="forumname">Devferanmi</div>
+                                        <div className="forumessage">Question for assignment if 1 + 1</div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6"></div>
+                            </div>
+                            <div className="messagerow col-md-12 flex inline-flex">
+                                <div className="col-md-6"></div>
+                                <div className="col-md-6 mymessage">
+                                    <div className="forum-message">
+                                        <div className="forumname">Devferanmi</div>
+                                        <div className="forumessage">Question for assignment if 1 + 1</div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                        </div>
+                        <div className="forumaction">
+                            <input type="text" placeholder="Type your message here"/>
+                            
                         </div>
                     </div>
                 </div>

@@ -151,7 +151,7 @@ img.imgdesc {
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 15px;
     line-height: 41px;
     color: #000000;
     display: flex;
@@ -392,7 +392,64 @@ label.declined {
     
     color: #000000;
 }
+.forumsection {
+    margin-top: 10vh;
+    padding: 5vh;
+    background: #fff;
+    border-radius: 12px;
+}
 
+.forum-name {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 20px;
+}
+.forumname {
+    color:#000;
+    font-weight:bold;
+    font-size:12px;
+  }
+  
+  .forum {
+      background: #f1f1f1;
+      padding: 2vh;
+  }
+  
+  .messagerow .col-md-6 {/* background: #000; *//* margin-top: 2vh; */}
+  
+  .forum-message {
+      background: #5f9ea0;
+      padding: 2vh;
+      margin-top: 2vh;
+      width: 100%;
+      word-break: break-word;
+      border-radius: 14px;
+  }
+  
+  
+  
+  .forumessage {
+      color: #fff;
+      font-size: 13px;
+      font-family: 'HELVETICA';
+  }
+  
+  .forumaction {
+      height: 100px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+  }
+  
+  .forumaction input[type="text"] {
+      width: 80%;
+      text-align: center;
+      border-radius: 20px;
+      border:1px solid #5f9ea0;
+      height:50px;
+      font-family:'Helvetica';
+      outline:none;
+  }
 @media(max-width:1200px){
     .overviewcards {
         width: 100%;

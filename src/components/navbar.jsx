@@ -34,28 +34,12 @@ import Tracking from './icons/3.svg';
                     Logo
                  </h1>
                  <div className="links">
-                            <button className={this.state.active === 'dashboard' ? 'active btn-link': 'btn-link'}
-                             onClick={this.handleClick} data-to="dashboard">
-                                <i className="fa fa-qrcode"></i>
-                                <span data-to="dashboard" className="link">Dashboard</span>
-                            </button>
-                            <button className={this.state.active === 'market' ? 'active btn-link': 'btn-link'} onClick={this.handleClick} data-to="market">
-                                <img alt="navlogo" src={Market} className="market"/>
-                                <span data-to="market" className="link">Market Place</span>
-                            </button>
-                            <button className={this.state.active === 'assign' ? 'active btn-link': 'btn-link'} onClick={this.handleClick} data-to="assign">
-                                <img alt="navlogo" src={Assign} className="market"/>
-                                <span data-to="assign" className='link'>Assign</span>
-                            </button>
-                            <button className={this.state.active === 'tracking' ? 'active btn-link': 'btn-link'}  onClick={this.handleClick} data-to="tracking">
-                                <img alt="navlogo" src={Tracking} className="market"/>
-                                <span data-to="tracking" className='link'>Tracking</span>
-                            </button>
-
-                            <button className={this.state.active === 'drivers' ? 'active btn-link': 'btn-link'} onClick={this.handleClick} data-to="drivers">
-                                <i className="fa fa-user"></i>
-                                <span data-to="drivers" className='link'>Drivers</span>
-                            </button>
+                            <button className={this.state.active === 'home' ? 'active btn-link': 'btn-link'}
+                             onClick={this.handleClick} data-to="home">
+                                <i className="fa fa-home"></i>
+                                <span data-to="dashboard" className="link">Home</span>
+                </button>
+                            
                  </div>
              </nav>
 

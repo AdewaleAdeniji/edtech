@@ -90,7 +90,7 @@ span.cardid {
 img.card-img {
     height: 13px;
     width: 13px;
-    margin-right: 19px;
+    /* margin-right: 19px; */
 }
 button.bidbutton {
     width: 150px;
