@@ -15,6 +15,8 @@ import Results from './pages/results';
 import Result from './pages/result';
 import Timetable from './pages/timetable';
 import Downloads from './pages/downloads';
+import Course from './pages/course';
+
 class App extends Component {
   state = { 
     loggedin:false,
@@ -40,6 +42,7 @@ class App extends Component {
             <Route path="/result/:id" component={Result}/>
             <Route path="/timetable" component={Timetable}/>
             <Route path="/downloads" component={Downloads}/>
+            <Route path="/course" component={Course}/>
             <Route component={Login} />
           </Switch>
         </BrowserRouter>

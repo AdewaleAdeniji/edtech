@@ -721,6 +721,46 @@ label.declined {
     font-family: 'helvetica';
 
 }
+.siderow.course .card {
+    margin-top: 0 !important;
+}
+.coursection {
+    margin-top: 5vh;
+    background: #fff;
+}
+.joinclass {
+    text-decoration: underline;
+}
+.coursetitle {
+    background: #0f7173;
+    color: #fff;
+    padding: 2vh;
+    font-family: 'Helvetica';
+}
+
+.courselist {
+    display: block;
+    margin: 2vh;
+    text-align: center;
+}
+
+.courseclass {
+    margin-top: 1vh;
+    display: flex;
+    /* justify-content: end; */
+}
+
+.courseclass ul {
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.courseclass ul li {
+    margin: 2vh;
+    margin-right: 10vh;
+}
 @media(max-width:1200px){
     .overviewcards {
         width: 100%;
