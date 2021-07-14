@@ -10,7 +10,11 @@ import Assign from './pages/assign';
 import Tracking from './pages/tracking';
 import Drivers from './pages/drivers';
 import Employees from './pages/employees';
-
+import Courses from './pages/courses';
+import Results from './pages/results';
+import Result from './pages/result';
+import Timetable from './pages/timetable';
+import Downloads from './pages/downloads';
 class App extends Component {
   state = { 
     loggedin:false,
@@ -31,6 +35,11 @@ class App extends Component {
             <Route path="/tracking" component={Tracking}/>
             <Route path="/drivers" component={Drivers}/>
             <Route path="/employees" component={Employees}/>
+            <Route path="/courses" component={Courses}/>
+            <Route path="/results" component={Results}/>
+            <Route path="/result/:id" component={Result}/>
+            <Route path="/timetable" component={Timetable}/>
+            <Route path="/downloads" component={Downloads}/>
             <Route component={Login} />
           </Switch>
         </BrowserRouter>

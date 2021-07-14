@@ -19,7 +19,7 @@ class Dashboard extends Component {
             <div>
                   
                 <div className="contents">
-                    <Header username="feranmi Adeniji" picture={User}/>
+                    <Header username="feranmi Adeniji" pagename="Dashboard" picture={User}/>
                     <div className="contentflex">
                     <div className="mainrow">
                    

@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import { Button } from '../components/uikits';
-
+import {Link} from 'react-router-dom';
 class Login extends Component {
     state = {
         email:'',
@@ -31,7 +31,9 @@ class Login extends Component {
                                 <label htmlFor="remembercheck">Remember Me</label>
                         </div>
                         </div>
-                        <Button text={"Login to Dashboard"} classname="buttonlogin"/>
+                        <Link to="/home">
+                            <Button text={"Login to LMS"} classname="buttonlogin"/>
+                        </Link>
                     </div>  
                     </div>
                 </div>

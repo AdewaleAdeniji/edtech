@@ -13,10 +13,30 @@
     background: #e5e5e5;
     font-family: 'Helvetica';
     position: absolute;
+    animation-name:animcontent;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
     /* padding:5vh; */
+}
+.clickable {
+    cursor: pointer;
+}
+.clickable:hover {
+    color: #0F7173;
+}
+@keyframes animcontent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 .contents::-webkit-scrollbar {
     display:none;
+}
+.padd {
+    padding: 5vh;
 }
 .headercontent {
     text-align: right;

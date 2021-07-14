@@ -38,7 +38,27 @@ import Tracking from './icons/3.svg';
                              onClick={this.handleClick} data-to="home">
                                 <i className="fa fa-home"></i>
                                 <span data-to="home" className="link">Home</span>
-                </button>
+                            </button>
+                            <button className={this.state.active === 'courses' ? 'active btn-link': 'btn-link'}
+                             onClick={this.handleClick} data-to="courses">
+                                <i className="fa fa-book"></i>
+                                <span data-to="courses" className="link">Courses</span>
+                            </button>
+                            <button className={this.state.active === 'results' ? 'active btn-link': 'btn-link'}
+                             onClick={this.handleClick} data-to="results">
+                                <i className="fa fa-receipt"></i>
+                                <span data-to="results" className="link">Results</span>
+                            </button>
+                            <button className={this.state.active === 'timetable' ? 'active btn-link': 'btn-link'}
+                             onClick={this.handleClick} data-to="timetable">
+                                <i className="fa fa-calendar"></i>
+                                <span data-to="timetable" className="link">Timetable</span>
+                            </button>
+                            <button className={this.state.active === 'downloads' ? 'active btn-link': 'btn-link'}
+                             onClick={this.handleClick} data-to="downloads">
+                                <i className="fa fa-download"></i>
+                                <span data-to="downloads" className="link">Downloads</span>
+                            </button>
                             
                  </div>
              </nav>

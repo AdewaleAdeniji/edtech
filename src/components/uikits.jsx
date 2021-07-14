@@ -22,11 +22,11 @@ export const link = ({name,path,active}) => {
         <Link to={path} className={active? 'active link': 'link'}>{name}</Link>
     )
 }
-export const Header = ({username,picture}) => {
+export const Header = ({pagename,username,picture}) => {
     return (
         <div className="header">
                         <div className="headercontent">
-                                Dashboard
+                                {pagename ? pagename : ''}
                         </div>
                     </div>
                
