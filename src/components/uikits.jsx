@@ -26,11 +26,7 @@ export const Header = ({username,picture}) => {
     return (
         <div className="header">
                         <div className="headercontent">
-                            <i className="far fa-bell"></i>
-                            Hello, 
-                                <span className="username">{username}</span>
-                                <img alt="userlogo" src={picture} className="imguser"/>
-                                <i className="fa fa-angle-down"></i>
+                                Dashboard
                         </div>
                     </div>
                

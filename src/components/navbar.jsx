@@ -37,7 +37,7 @@ import Tracking from './icons/3.svg';
                             <button className={this.state.active === 'home' ? 'active btn-link': 'btn-link'}
                              onClick={this.handleClick} data-to="home">
                                 <i className="fa fa-home"></i>
-                                <span data-to="dashboard" className="link">Home</span>
+                                <span data-to="home" className="link">Home</span>
                 </button>
                             
                  </div>
