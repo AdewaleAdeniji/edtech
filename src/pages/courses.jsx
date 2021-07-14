@@ -3,7 +3,7 @@ import {Header} from '../components/uikits';
 import User from '../components/icons/user.png';
 import '../components/css/market.css';
 import '../components/css/tracking.css';
-
+import {Link} from 'react-router-dom';
 
 class Courses extends Component {
     constructor(props) {
@@ -62,7 +62,7 @@ class Courses extends Component {
                                 <th>
                                     Unit
                                 </th>
-                                
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -80,7 +80,11 @@ class Courses extends Component {
                                 <td>
                                     5
                                 </td>
-                                
+                                <td>
+                                    <Link to="/course">
+                                        Open Course
+                                    </Link>
+                                </td>
                             </tr>
                             <tr>
                                 <td>
@@ -93,7 +97,11 @@ class Courses extends Component {
                                 <td>
                                     5
                                 </td>
-                                
+                                <td>
+                                    <Link to="/course">
+                                        Open Course
+                                    </Link>
+                                </td>
                             </tr>
                              
                             <tr>
@@ -107,7 +115,11 @@ class Courses extends Component {
                                 <td>
                                     5
                                 </td>
-                                
+                                <td>
+                                    <Link to="/course">
+                                        Open Course
+                                    </Link>
+                                </td>
                             </tr>
                              
                         

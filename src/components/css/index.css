@@ -737,7 +737,9 @@ label.declined {
     padding: 2vh;
     font-family: 'Helvetica';
 }
-
+.overviewcards {
+    margin-left: 2vh;
+}
 .courselist {
     display: block;
     margin: 2vh;

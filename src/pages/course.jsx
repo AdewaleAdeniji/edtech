@@ -176,22 +176,17 @@ class Course extends Component {
                     <div className="siderow course">
                      <div className="card">
                         <div className="card-title">
-                            Tasks
+                            Announcements
                         </div>
                         <div className="card-body">
                             <ul>
                                 <li>
-                                    Submit CSE401 Test
+                                   Monday class is now holding on Monday
                                 </li>
                                 <li>
-                                    Submit CSE401 Test
+                                    We have a test on Sunday
                                 </li>
-                                <li>
-                                    Submit CSE401 Test
-                                </li>
-                                <li>
-                                    Submit CSE401 Test
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
