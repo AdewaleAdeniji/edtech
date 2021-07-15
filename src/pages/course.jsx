@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import User from '../components/icons/user.png';
-import {Header} from '../components/uikits';
+import {Header,Button} from '../components/uikits';
+import Feranmi from '../components/icons/feranmi.jpg';
 import ImageDesc from '../components/icons/imagedesc.svg';
 import CardImageOne from '../components/icons/cash.svg';
 import CardImageTwo from '../components/icons/bids.svg';
@@ -173,27 +174,61 @@ class Course extends Component {
                         </div>
                     
                     </div>
-                    <div className="siderow course">
-                     <div className="card">
-                        <div className="card-title">
-                            Announcements
+                    <div className="siderow course coursee">
+                        <div className="card">
+                            <div className="card-body">
+                                <div class="colname flex">
+                                    <div className="colm">
+                                        <img src={Feranmi} width="100" height="100"/>
+                                    </div>
+                                    <div className="colm">
+                                    <ul>
+                                        <li>
+                                            Dr Feranmi Adeniji (Phd, Msc,GMSE)
+                                        </li>
+                                        <li>
+                                            Department of Mathematics
+                                        </li>
+                                        <li>
+                                            School of Social Sciences
+                                        </li>
+                                        <li>
+                                            Email: devferanmi@gmail.com
+                                        </li>
+                                        <li>
+                                            <button class="savebtn">
+                                                Message Tutor
+                                            </button>
+                                        </li>
+                                    </ul>
+                           
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div className="card-body">
-                            <ul>
-                                <li>
-                                   Monday class is now holding on Monday
-                                </li>
-                                <li>
-                                    We have a test on Sunday
-                                </li>
-                                
-                            </ul>
+                        
+                    
+                        <div className="card">
+                            <div className="card-title">
+                                Announcements
+                            </div>
+                            <div className="card-body">
+                                <ul>
+                                    <li>
+                                    Monday class is now holding on Monday
+                                    </li>
+                                    <li>
+                                        We have a test on Sunday
+                                    </li>
+                                    
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            
             
          );
     }

@@ -126,6 +126,7 @@ class Courses extends Component {
                         </tbody>
                     </table>
                 </div>
+            
             </div>
          );
     }
